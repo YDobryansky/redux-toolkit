@@ -1,7 +1,5 @@
 ### React-Redux Toolkit Counter
 
-- Redux Toolkit Counter
-
 ### [Site link](https://.......)
 
 ### The tech stack is
