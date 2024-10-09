@@ -38,12 +38,10 @@ const counterSlice = createSlice({
 });
 
 export const incrementAsync = createAsyncThunk('counter/incrementAsync', async (amount: number) => {
-  await new Promise((resolve) => setTimeout(resolve, 100));
   return amount;
 });
 
 export const decrementAsync = createAsyncThunk('counter/decrementAsync', async (amount: number) => {
-  await new Promise((resolve) => setTimeout(resolve, 100));
   return amount;
 });
 
