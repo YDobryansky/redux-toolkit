@@ -19,10 +19,8 @@ const Counter = () => {
         {count}
       </h2>
       <div className="counter__buttons">
-        <button className="counter__btn">
-          <span className="counter__text" onClick={() => dispatch(increment())}>
-            Increment
-          </span>
+        <button className="counter__btn" onClick={() => dispatch(increment())}>
+          <span className="counter__text">Increment</span>
         </button>
         <button className="counter__btn" onClick={() => dispatch(decrement())}>
           <span className="counter__text">Decrement</span>
